@@ -1,0 +1,18 @@
+[project]
+name = "pytest-sandbox"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "v.smirnov",email = "v.smirnov@kefirgames.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pytest (>=9.0.2,<10.0.0)",
+    "allure-pytest (>=2.15.3,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
